@@ -1,0 +1,161 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB"
+        (Type "Schematic Library")))
+    (File ".\p2009_0000_rbcs_rc_expr.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (LM5101A
+      (FullPartName "LM5101A.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MAX3051_8P
+      (FullPartName "MAX3051_8P.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\BUSDRIVERTRANSCEIVER.OLB")
+      (DeviceIndex "0"))
+    (LM5101A_8P
+      (FullPartName "LM5101A_8P.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MISCPOWER.OLB")
+      (DeviceIndex "0"))
+    (ADL650
+      (FullPartName "ADL650.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (SS19
+      (FullPartName "SS19.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (BZV49
+      (FullPartName "BZV49.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MBR0520
+      (FullPartName "MBR0520.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (BAV99
+      (FullPartName "BAV99.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (LED0603
+      (FullPartName "LED0603.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (IH12_SIP_5P
+      (FullPartName "IH12_SIP_5P.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MISCPOWER.OLB")
+      (DeviceIndex "0"))
+    (AMP2-5174225-5
+      (FullPartName "AMP2-5174225-5.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (ERNI154719
+      (FullPartName "ERNI154719.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (NP2-12
+      (FullPartName "NP2-12.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ADG658_16P
+      (FullPartName "ADG658_16P.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (ADG659_16P
+      (FullPartName "ADG659_16P.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (MMBT2907A
+      (FullPartName "MMBT2907A.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MMBT2222A
+      (FullPartName "MMBT2222A.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MOSFET_I_EN_GDS
+      (FullPartName "MOSFET_I_EN_GDS.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (MKDS13-381
+      (FullPartName "MKDS13-381.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MKDS12-381
+      (FullPartName "MKDS12-381.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (MOLEX51021-1000
+      (FullPartName "MOLEX51021-1000.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (CONN_RECT_10
+      (FullPartName "CONN_RECT_10.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (MOLEX51021-0800
+      (FullPartName "MOLEX51021-0800.Normal")
+      (LibraryName
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\ORCAD LIBRARY\IIT.OLB")
+      (DeviceIndex "0"))
+    (CONN_SOCKET_8
+      (FullPartName "CONN_SOCKET_8.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\p2009_0000_rbcs_rc_expr.dsn")
+      (Path "Design Resources" ".\p2009_0000_rbcs_rc_expr.dsn"
+         "I-cub XPR Control board")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\p2009_0000_rbcs_rc_expr.dsn"
+         "I-cub XPR Control board" "Pag. 1 - Control board"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 640 884 -4 -23 0 359 -4 920"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1500 58 683")
+        (Scroll "0 113")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "\\GEO\REPOSITORY\GROUPS\ELECTRONIC_LAB\PROJECTS\EXPRESSION\SCHEMI\EXPRESSIONS_BOARD\P2009_0000_RBCS_RC_EXPR.DSN")
+      (Schematic "I-cub XPR Control board")
+      (Page "Pag. 1 - Control board")))
+  (MPSSessionName "bruno.bonino")
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_16.0\tools\capture\library"))

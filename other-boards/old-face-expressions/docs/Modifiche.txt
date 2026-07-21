@@ -1,0 +1,4 @@
+Scheda EXPRESSION
+- Il IC5 e IC4 sono obsoleti, devono essere sostituiti con il CODICE FARNELL  1707900, cambia il package era SOIC18 diventa SOIC20).
+- Per IC2 (LM7805 TO220) è necessario isolare i fori di vias sotto l'aletta
+- il segno del pin 1 sul connettore di programmazione è messo sul pin 5

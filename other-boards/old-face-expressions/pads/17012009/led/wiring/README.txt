@@ -1,0 +1,1 @@
+Notes on the wiring of the LED card.

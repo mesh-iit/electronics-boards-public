@@ -1,0 +1,34 @@
+PROCEDURA PER IL COLLAUDO DELLE SCHEDE EXPRESSION
+
+Alimentare la scheda a 5V dal connettore USB
+verificare 5V su pun 1-5 del connettore PROG
+verificare 3.3V sul regolatore lato saldature tra Tab e pin 3
+connettere l'ICD2 (ATTENZIONE IL PIN 1 E' DALLA PARTE OPPOSTA DI DOVE E' INDICATO)
+configurare il PIC: configure->selsct device -> PIC18F2550
+configurare l'icd2: programmer->select programmer-> icd2
+importare il codice: file -> import -> MCHPUSB.hex
+connettersi, programmare e verificare (appositi tastini)
+
+
+connettere la scheda con il PC via USB
+a questo punto deve apparire la finestra di scelta del driver, puntare ...\inf\win2k_winxp\
+se tutto va come deve deve apparire una COMx tra le porte 
+
+Lanciare Hercules.exe andare sul tab serial. Andare su pannello di controllo ->sitema ->avanzate -> gestione periferiche e cercare Porte COM. 
+Collegare e scollegare l'USB e vedere quale scompare. 
+Impostare la COM sul Hercules. La velocità é 9600, data size 8, bit di parità nessuno.
+Cliccare su OPEN
+collegare tutti i led, l'alimentazione 12V ed il servo (nero verso riferimento sul connettore)
+lanciando il comando I deve accendere tutti i led e muovere il servo
+Per provare il sopracciglio destro lanciare la sequenza: R01 R02 R04 R08 e verificare che si accenda 
+una striscia alla volta.
+Per provare il sopracciglio sinistro lanciare la sequenza: L01 L02 L04 L08 e verificare che si accenda 
+una striscia alla volta.
+Per provare la bocca lanciare la sequenza: M01 M02 M03 M04 M05 M06 M07 M08 e verificare che si accenda 
+una striscia alla volta.
+Mandare Il comando E99 per settare la massima posizione del movimento al valore 99% del range 
+Mandare Il comando U00 per settare la minima posizione del movimento al valore 0% del range
+Mandare i comandi S00, S10, S20, S30, S40, S50, S60 e verificare movimenti successivi dell'indicatore
+ 
+Etichettare e inscatolare.
+Avanti il prossimo!
