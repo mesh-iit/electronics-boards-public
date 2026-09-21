@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../io_cfg.h</itemPath>
+      <itemPath>../system/usb/usbmmap.h</itemPath>
+      <itemPath>../autofiles/usbcfg.h</itemPath>
+      <itemPath>../system/usb/usb.h</itemPath>
+      <itemPath>../system/typedefs.h</itemPath>
+      <itemPath>../autofiles/usbdsc.h</itemPath>
+      <itemPath>../system/usb/class/cdc/cdc.h</itemPath>
+      <itemPath>../system/usb/usbdrv/usbdrv.h</itemPath>
+      <itemPath>../usart_int.h</itemPath>
+      <itemPath>../timerzero.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../main.c</itemPath>
+      <itemPath>../system/usb/usbmmap.c</itemPath>
+      <itemPath>../system/usb/usbdrv/usbdrv.c</itemPath>
+      <itemPath>../system/usb/usb9/usb9.c</itemPath>
+      <itemPath>../autofiles/usbdsc.c</itemPath>
+      <itemPath>../system/usb/usbctrltrf/usbctrltrf.c</itemPath>
+      <itemPath>../user/user.c</itemPath>
+      <itemPath>../system/usb/class/cdc/cdc.c</itemPath>
+      <itemPath>../usart_int.c</itemPath>
+      <itemPath>../timerzero.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>..</Elem>
+    <Elem>..\system\usb\usbdrv</Elem>
+    <Elem>..\system</Elem>
+    <Elem>..\user</Elem>
+    <Elem>..\system\usb\usb9</Elem>
+    <Elem>..\system\usb\usbctrltrf</Elem>
+    <Elem>..\system\usb\class\cdc</Elem>
+    <Elem>..\autofiles</Elem>
+    <Elem>..\system\usb</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F2550</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>C18</languageToolchain>
+        <languageToolchainVersion>3.47</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18Fxxxx_DFP" vendor="Microchip" version="1.8.178"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C18>
+        <property key="code-model" value="mS"/>
+        <property key="data-model" value="Oa-"/>
+        <property key="default-char-unsigned" value="false"/>
+        <property key="enable-all-optimizations" value="true"/>
+        <property key="enable-int-promotion" value="false"/>
+        <property key="enable-multi-bank-stack-model" value="false"/>
+        <property key="enable-ob" value="false"/>
+        <property key="enable-od" value="false"/>
+        <property key="enable-om" value="true"/>
+        <property key="enable-on" value="true"/>
+        <property key="enable-op" value="false"/>
+        <property key="enable-opa" value="false"/>
+        <property key="enable-or" value="false"/>
+        <property key="enable-os" value="true"/>
+        <property key="enable-ot" value="false"/>
+        <property key="enable-ou" value="false"/>
+        <property key="enable-ow" value="true"/>
+        <property key="extra-include-directories"
+                  value="..;..\..\..\..\..\..\..\..\Data\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE;..\..\..\..\..\..\..\..\Program Files\Microchip\MCC18\h;..\autofiles;..\system;..\system\usb;..\system\usb\class\cdc;..\system\usb\usbdrv;;."/>
+        <property key="optimization-master" value="Custom"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="procedural-abstraction-passes" value="4"/>
+        <property key="storage-class" value="sca"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="2"/>
+      </C18>
+      <C18-AS>
+        <property key="cross.reference.file" value=""/>
+        <property key="default.radix" value="HEX"/>
+        <property key="enable.case.sensitivity" value="true"/>
+        <property key="hex.output.format" value="INHX32"/>
+        <property key="preprocessor.macros" value=""/>
+        <property key="warning.level" value="0"/>
+      </C18-AS>
+      <C18-LD>
+        <property key="cod-file" value="false"/>
+        <property key="extra-lib-directories"
+                  value="..\..\..\..\..\..\..\..\Program Files\Microchip\MCC18\lib;;."/>
+        <property key="hex-output-format" value="INHX32"/>
+        <property key="map-file" value="&quot;$(BINDIR_)$(TARGETBASE).map&quot;"/>
+      </C18-LD>
+      <C18LanguageToolchain>
+        <property key="extended-mode" value="false"/>
+        <property key="extended-mode-mcc18" value="false"/>
+        <property key="extended-mode-mpasm" value="false"/>
+        <property key="extended-mode-mplink" value="false"/>
+        <property key="stack-analysis" value="false"/>
+        <property key="stack-analysis-mcc18" value="false"/>
+        <property key="stack-analysis-mplink" value="false"/>
+      </C18LanguageToolchain>
+    </conf>
+  </confs>
+</configurationDescriptor>

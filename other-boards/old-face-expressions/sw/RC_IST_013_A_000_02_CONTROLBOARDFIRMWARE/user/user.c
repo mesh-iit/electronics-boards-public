@@ -128,7 +128,8 @@ void UserInit(void)
 
 	ServoH='0';
 	ServoL='0';
-	Servo_PWM=0;
+	//Servo_PWM=0;
+	Servo_PWM=MaxPWM;
 	PORTB=0;
 	PORTA=0;
 	MouthH='0';

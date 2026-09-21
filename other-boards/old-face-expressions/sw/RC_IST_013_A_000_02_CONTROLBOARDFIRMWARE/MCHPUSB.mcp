@@ -44,6 +44,7 @@ file_016=.
 file_017=.
 file_018=.
 file_019=.
+file_020=.
 [GENERATED_FILES]
 file_000=no
 file_001=no
@@ -65,6 +66,7 @@ file_016=no
 file_017=no
 file_018=no
 file_019=no
+file_020=no
 [OTHER_FILES]
 file_000=no
 file_001=no
@@ -86,6 +88,7 @@ file_016=no
 file_017=no
 file_018=no
 file_019=no
+file_020=no
 [FILE_INFO]
 file_000=main.c
 file_001=system\usb\usbmmap.c
@@ -107,6 +110,7 @@ file_016=system\usb\class\cdc\cdc.h
 file_017=system\usb\usbdrv\usbdrv.h
 file_018=usart_int.h
 file_019=timerzero.h
+file_020=C:\Program Files\Microchip\MCC18\h\p18f2550.h
 [SUITE_INFO]
 suite_guid={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 suite_state=

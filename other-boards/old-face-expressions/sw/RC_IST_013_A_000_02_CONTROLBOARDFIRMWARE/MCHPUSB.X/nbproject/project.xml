@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>MCHPUSB</name>
+            <creation-uuid>b14003a8-75b4-4c8a-9d75-b300a65e1979</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..</sourceRootElem>
+                <sourceRootElem>..\system\usb\usbdrv</sourceRootElem>
+                <sourceRootElem>..\system</sourceRootElem>
+                <sourceRootElem>..\user</sourceRootElem>
+                <sourceRootElem>..\system\usb\usb9</sourceRootElem>
+                <sourceRootElem>..\system\usb\usbctrltrf</sourceRootElem>
+                <sourceRootElem>..\system\usb\class\cdc</sourceRootElem>
+                <sourceRootElem>..\autofiles</sourceRootElem>
+                <sourceRootElem>..\system\usb</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
