@@ -1,0 +1,3 @@
+Warning[2002] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\main.c 18 : unknown pragma 'CONFIG'
+Warning[2058] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\main.c 41 : call of function without prototype
+Warning[2058] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\main.c 53 : call of function without prototype

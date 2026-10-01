@@ -1,0 +1,4 @@
+Warning[2066] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\usart_int.c 82 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\usart_int.c 96 : suspicious pointer conversion
+Warning[2054] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\usart_int.c 110 : suspicious pointer conversion
+Warning[2066] C:\Users\ascalzo\Desktop\Expression-Software\Expression-Software\FW\RC_IST_013_A_000_02_CONTROLBOARDFIRMWARE\usart_int.c 111 : type qualifier mismatch in assignment
